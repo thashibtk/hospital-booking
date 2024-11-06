@@ -7,9 +7,9 @@
 <hr>
 
 
-<div class="container text-center">
+<div class="container text-center bg-light">
 {% for d in doctors %}
-    <div class="card my-2 mx-1 curve" style="width: 18rem; display: inline-block;">
+    <div class="card my-2 mx-1 curve " style="width: 18rem; display: inline-block;">
         <img src="{{d.doct_img.url}}" class="card-img-top doctor-img" alt="...">
         <div class="card-body">
           <h5 class="card-title">Dr. {{d.doct_name}}</h5>
