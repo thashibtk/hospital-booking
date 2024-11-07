@@ -1,7 +1,60 @@
 {% extends 'base.html' %}
+{% load static %}
 
 {% block title %}About us{% endblock %}
 
 {% block contents %}
-<h1>About Page</h1>
+
+<section class="about-section py-5">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <h2>About City Hospital</h2>
+                <p>City Hospital is dedicated to providing comprehensive, quality healthcare to our community with compassion and care. Founded in 1990, we have consistently upheld our commitment to the health and well-being of our patients, ensuring the best medical services and facilities.</p>
+                <p>Our hospital is equipped with state-of-the-art technology and our team of highly skilled medical professionals and staff is committed to delivering excellent patient care. From primary care to specialized services, we offer a wide range of treatments to meet our patients' diverse health needs.</p>
+            </div>
+            <div class="col-md-6">
+                <img src="{% static 'images/hospital.jpeg' %}" class="img-fluid rounded border rounded" alt="About City Hospital">
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Mission & Vision Section -->
+<section class="mission-vision-section bg-light py-5">
+    <div class="container">
+        <div class="row text-center">
+            <div class="col-md-6 mb-4">
+                <h3>Our Mission</h3>
+                <p>To provide accessible, affordable, and quality healthcare services to our community, while maintaining a compassionate and respectful environment for all.</p>
+            </div>
+            <div class="col-md-6 mb-4">
+                <h3>Our Vision</h3>
+                <p>To be a leading healthcare institution known for excellence in patient care, innovative treatments, and promoting overall wellness in the community.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Core Values Section -->
+<section class="core-values-section py-5">
+    <div class="container">
+        <h3 class="text-center mb-4">Our Core Values</h3>
+        <div class="row text-center">
+            <div class="col-md-4">
+                <h4>Compassion</h4>
+                <p>We provide care with empathy, compassion, and respect for each individual.</p>
+            </div>
+            <div class="col-md-4">
+                <h4>Integrity</h4>
+                <p>We uphold the highest ethical standards and transparency in all we do.</p>
+            </div>
+            <div class="col-md-4">
+                <h4>Excellence</h4>
+                <p>We are dedicated to achieving the best outcomes and continually improving our services.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
 {% endblock %}

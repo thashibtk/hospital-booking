@@ -1,7 +1,6 @@
-li:hover{
+.navbar .navbar-nav li:hover {
     background-color: grey;
     border-radius: 10px;
-    border: 1px solid yellow;
 }
 
 .doctor-img {
