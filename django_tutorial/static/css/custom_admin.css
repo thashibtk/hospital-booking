@@ -1,5 +1,8 @@
 #header {
-    background-color: #0d6efd; /* Change the admin header background color */
+    background-color: #608BC1; /* Change the admin header background color */
     color: white; /* Change header text color */
 }
 
+.module.dashboard {
+    display: none !important;
+}

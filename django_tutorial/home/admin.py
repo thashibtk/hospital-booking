@@ -8,6 +8,11 @@ class MyAdminSite(AdminSite):
     site_title = "City Hospital Admin Portal"  # Title in the browser tab
     index_title = "Welcome to City Hospital Admin Panel"  # Title on the main page
 
+    def each_context(self, request):
+        context = super().each_context(request)
+        context['has_permission'] = False  # Hides permissions-related data
+        return context
+
 # Set the custom admin site
 admin.site = MyAdminSite()
 

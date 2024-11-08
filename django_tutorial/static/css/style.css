@@ -1,3 +1,8 @@
+body, .navbar {
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+
 .navbar .navbar-nav li:hover {
     background-color: grey;
     border-radius: 10px;
@@ -18,4 +23,12 @@
 .card-img-top {
   border-top-left-radius: 20px;
   border-top-right-radius: 20px;
+}
+
+.light-blue {
+    background-color: #608BC1; /* Light blue color */
+}
+
+.grey-blue{
+    background-color: #CBDCEB
 }
